@@ -1,0 +1,236 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+	}
+
+
+h2{  
+	font-size: 80px;
+	font-weight: 100px;
+	color: white;
+	font-weight: 200;
+	font-family: sans-serif;
+	text-align: center;
+	text-decoration: underline;
+}
+
+p{
+ font-family: sans-serif;
+ color: black;
+ font-size: 16;
+ line-height: 170%;
+ text-align: justify;
+ font-weight: 200;
+}
+
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+header{
+	 background: linear-gradient(1000deg, #EAEAEA ,#ff5e62, #ff9966);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 30s ease infinite;
+}
+
+
+@keyframes BackgroundGradient{
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position:  0% 50%;}
+
+}
+.intro{
+
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(images/introlo.jpg);
+	background-size: 100% 100%;
+	display: table;
+	
+
+}
+.intro .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+
+
+}
+
+.content{
+	max-width: 600px;
+	margin: auto;
+}
+
+ h1{
+    font-family: serif;
+    font-size: 300%;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    padding: 2%;
+    text-shadow: 0px 0px 200px black;
+
+}
+
+.content p{
+	color: #FFF;
+	font-size: 120%;
+
+}
+
+.inner {
+	max-width: 600px;
+	margin: auto;
+	font-size: 120%;
+	line-height: 1.6;
+	padding: 20px;
+	
+
+}
+
+
+nav {
+	float: left;
+	padding: 5% 5% 0 0;
+	height: 50px;
+}
+
+nav ul {
+	list-style: none;
+	float: left;
+}
+
+nav ul li {
+	font-family: 'Raleway',sans-serif;
+	font-size: 130%;
+  
+  }
+
+nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+
+}
+
+nav ul, nav:active ul{
+	display: none;
+	top: 125px;
+	padding: 8px 35px;
+	width: 20%;
+	z-index: 1000;
+}
+
+nav li {
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	padding-right: 10px;
+	padding-left: 45px;
+	margin: 5px;
+
+}
+
+nav:hover ul{
+	display: block;
+	position: absolute;
+}
+
+#menu-icon {
+	width: 85px;
+	height: 80px;
+	background: url(images/nav-icon.png) center;
+	display: inline-block;
+	margin-left: 80px;
+}
+
+
+.gallery{
+	width: 500px;
+	margin-left: auto;
+	margin-top: auto;
+	display: block;
+	padding-right: 400px;
+
+}
+
+/*---End Nav ---*/
+.left-col{
+	float: left;
+	width: 500px;
+    margin: auto;
+	display: inline-block;
+
+}
+.sidebar{
+	float: left;
+	width: 400px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 150px;
+	margin-top: 50px;
+}
+
+.one-third-port {
+    width: 30%;
+    padding: 1%;
+	float: left;
+    
+}
+
+.one-third-port img:hover{
+	opacity: .6;
+
+}
+
+.contact p{
+	text-align: center;
+	letter-spacing: 7px;
+
+}
+.contact a{
+	color: #2C2C2C;
+
+}
+.clearfix {
+	clear: both;
+	height: 5%;
+}
+
+.parallax {
+	background: url(images/road.jpg)repeat fixed 100%;
+    opacity: 1;
+}
+
+.parallax-inner {
+	padding-top: 20%;
+}
+.social {
+	list-style-type: none;
+	text-align: center;
+
+}
+.social li {
+	display: inline;
+}
+
+.social i{
+	font-size: 270%;
+	padding: 0.5%;
+
+}
+
